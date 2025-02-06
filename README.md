@@ -1,5 +1,7 @@
 ## Hi, my name is Yael Hasson
 
+### Business Intelligence Engineer
+
 <!--
 **Yael-Hasson/Yael-Hasson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
