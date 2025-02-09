@@ -135,15 +135,15 @@ Automate budget tracking for the Marketing Finance team by integrating financial
 
 **Description:**
 The Marketing Finance team in EMEA previously relied on manual Excel tracking to consolidate:
-✔ Purchase Order (PO) reports from Finance
-✔ Marketing campaign expenses from the Traffic team
-✔ Planned budgets in both local and USD currencies
+- Purchase Order (PO) reports from Finance
+- Marketing campaign expenses from the Traffic team
+- Planned budgets in both local and USD currencies
 
 This process was time-consuming (3-4 hours per month per person for nine employees) and prone to errors, requiring constant coordination between teams. The goal was to develop an automated QuickSight dashboard that would:
-✔ Synchronize financial data across multiple teams
-✔ Track actual spending vs. planned budgets in real time
-✔ Reduce errors and improve reporting accuracy
-✔ Enhance financial decision-making through deeper insights
+- Synchronize financial data across multiple teams
+- Track actual spending vs. planned budgets in real time
+- Reduce errors and improve reporting accuracy
+- Enhance financial decision-making through deeper insights
 
 The final solution replaced Excel with an automated and scalable dashboard, streamlining financial tracking and improving strategic planning.
 
