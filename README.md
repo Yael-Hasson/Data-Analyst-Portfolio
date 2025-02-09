@@ -8,7 +8,9 @@
 
 Hi, I'm Yael! Dynamic and results-oriented BI Engineer with extensive experience in data analysis, business insights, and leveraging cutting-edge tools to drive decision-making. Proven ability to design scalable ETL pipelines, build impactful dashboards, and deliver actionable insights that optimize business performance. Skilled in collaborating across teams to address complex business challenges and enhance customer experiences through innovative, data-driven frameworks. Excels at empowering stakeholders with tailored analytics and clear communication, driving informed decision-making at all organizational levels.
 
-This is a repository to showcase skills, share projects and track my progress in Data Analytics
+This is a repository to showcase skills, share projects and track my progress in Data Analytics.
+
+## Portfolio Projects
 
 ### Impact Analysis of a Marketing Promotion (A/B Test)
 **Code:**
@@ -42,8 +44,7 @@ SQL (JOINs, CTEs, aggregations), Redshift.
 - Test the promotion in other markets to assess whether the impact is consistent.
 - Optimize marketing budget allocation, ensuring that the cost of the promotion is justified by the increase in sales.
 - Analyze which specific devices within the promotion sold the most, allowing for better pricing and inventory strategies.
- 
-## Portfolio Projects
+
 
 ### Impact Analysis of Targeted Promotions on Kindle Sales in Germany (Q1 2024)
 **Code:**
@@ -80,6 +81,111 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS).
 - Investigate the performance of Kindle D2024001: The low sales increase (+22%) suggests potential issues such as pricing, competition, or low customer interest. Running customer surveys or A/B testing different offers could help improve its conversion rate.
 - Segment customers for personalized marketing: Since different devices have varying responses to promotions, use customer purchase history to tailor offers (e.g., offer D2024003 discounts to customers who previously bought an older model).
 - Run additional tests in different markets: This test focused on Germany, but similar tests in France, Italy, or Spain could reveal whether regional preferences affect promotion success.
+
+### CTV Sales Dashboard Automation
+**Code:**
+
+**Goal:**
+Automate the CTV (Connected TV) Sales reporting process by replacing the manual Excel-based tracker with a scalable BI dashboard that integrates online and offline sales data, improves accuracy, and enables real-time tracking of key metrics like sales performance, Return on Equity (ROE), and Quarterly Guidance (QG) forecasts.
+
+**Description:**
+The legacy Excel-based reporting system was time-consuming, prone to errors, and unable to track new programs, countries, and sales channels. With multiple launches on the horizon, the CTV Sales team needed an automated, scalable solution to track sales performance effectively.
+
+This project focused on eliminating manual data entry, integrating multiple data sources, and ensuring accurate sales tracking across different brands and regions. The dashboard has now been successfully expanded to India, the US, and Japan, proving its scalability and effectiveness.
+
+**Skills:**
+SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
+
+**Steps:**
+- 1️⃣ Analyzing the Challenges
+   - Identified limitations of the Excel report (manual data entry, formula errors, lack of scalability).
+   - Defined key sales metrics and requirements for the new dashboard.
+
+- 2️⃣ Automating Data Inputs
+   - Replaced manual Excel data entry with Structured Input Templates (SITs), eliminating the need for manual calculations (e.g., OP2 numbers).
+   - Allowed easy expansion to new brands, countries, and TV sizes.
+
+- 3️⃣ Data Integration
+   - Merged online and offline sales data by integrating backend databases with SITs.
+   - Ensured real-time sales tracking across different sales channels.
+
+- 4️⃣ Enhancing Forecasting & Scalability
+   - Implemented Quarterly Guidance (Q2G, Q3G, Q4G) tracking for better forecasting.
+   - The dashboard has already been expanded globally, covering India, the US, and Japan.
+
+- 5️⃣ Prioritization & Stakeholder Collaboration
+   - Focused only on critical features to meet the immediate deadline.
+   - Worked closely with stakeholders to align expectations and provide regular progress updates.
+
+ **Results:**
+ 
+[Dashboard](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Sales_Report_WBR.pdf)
+
+- ✅ 400-500 hours saved annually by eliminating manual data entry.
+- ✅ Improved accuracy by removing formula errors and manual reporting inconsistencies.
+- ✅ Integrated online and offline sales data, enabling more comprehensive performance tracking.
+- ✅ Added forecast tracking, helping the team align sales with strategic goals.
+- ✅ Global scalability: Successfully expanded to India, the US, and Japan, demonstrating its adaptability.
+- ✅ Faster decision-making: The CTV Sales team can now make data-driven decisions in real-time instead of relying on outdated reports.
+
+### Marketing Finance Dashboard Automation
+
+**Goal:**
+Automate budget tracking for the Marketing Finance team by integrating financial data from multiple sources into a centralized dashboard. The solution needed to eliminate manual Excel reporting, reduce errors, and provide real-time insights into spending and remaining budgets.
+
+**Description:**
+The Marketing Finance team in EMEA previously relied on manual Excel tracking to consolidate:
+✔ Purchase Order (PO) reports from Finance
+✔ Marketing campaign expenses from the Traffic team
+✔ Planned budgets in both local and USD currencies
+
+This process was time-consuming (3-4 hours per month per person for nine employees) and prone to errors, requiring constant coordination between teams. The goal was to develop an automated QuickSight dashboard that would:
+✔ Synchronize financial data across multiple teams
+✔ Track actual spending vs. planned budgets in real time
+✔ Reduce errors and improve reporting accuracy
+✔ Enhance financial decision-making through deeper insights
+
+The final solution replaced Excel with an automated and scalable dashboard, streamlining financial tracking and improving strategic planning.
+
+**Skills:**
+SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
+
+**Steps:**
+- 1️⃣ Understanding Data Challenges & Gathering Requirements
+   - Connected with Finance and Traffic teams to understand data structures and integration points.
+   - Identified inconsistencies in how POs and marketing spend were tracked.
+   - Ensured alignment between multiple currencies, tax rates, and planned vs. actual budgets.
+
+- 2️⃣ Building a Structured Data Storage System
+   - Created Custom Data Tables (CDTs) to store manually provided planned budget data and tax rates.
+   - Designed a standardized framework to ensure accurate comparisons between actual and planned spending.
+
+- 3️⃣ Automating Data Extraction & Processing
+   - Developed an ETL pipeline to extract spend data automatically from Finance and Traffic databases.
+   - Merged and standardized data into a unified dataset to cross-check planned budgets with actual expenses.
+
+- 4️⃣ Developing the Dashboard
+   - Designed a QuickSight dashboard featuring:
+   - Real-time tracking of budget usage and remaining funds.
+   - Side-by-side comparisons of planned vs. actual spending.
+   - Aggregated insights for higher-level financial reporting.
+
+- 5️⃣ Stakeholder Collaboration & Iterative Improvements
+   - Worked closely with Finance and Marketing leaders to refine key reporting metrics.
+   - Iterated based on feedback to enhance usability, visualizations, and filters.
+ 
+**Results:**
+
+[Dashboard](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Marketing_Finance_Dashboard.pdf)
+
+- ✅ 432 hours saved per year by eliminating manual tracking.
+- ✅ Eliminated errors caused by manual data entry and Excel formulas.
+- ✅ Improved financial visibility with real-time budget tracking.
+- ✅ Strengthened collaboration between Finance and Marketing teams.
+- ✅ Enabled data-driven decision-making, allowing the team to optimize spending more strategically.
+- ✅ Long-term value & adoption: The dashboard became a core financial tool, reducing inefficiencies and increasing operational efficiency.
+
+By replacing an outdated manual process with a fully automated dashboard, this project empowered the Marketing Finance team to focus on high-impact strategic planning rather than time-consuming data consolidation.
 
 ## Contact:
 
