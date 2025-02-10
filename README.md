@@ -12,7 +12,7 @@ This is a repository to showcase skills, share projects and track my progress in
 
 ## Portfolio Projects
 
-### Impact Analysis of a Marketing Promotion (A/B Test)
+### 📊 Impact Analysis of a Marketing Promotion (A/B Test)
 **Code:**
 [SQL query](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Impact%20Analysis%20of%20a%20Marketing%20Promotion.sql)
 
@@ -46,7 +46,7 @@ SQL (JOINs, CTEs, aggregations), Redshift.
 - Analyze which specific devices within the promotion sold the most, allowing for better pricing and inventory strategies.
 
 
-### Impact Analysis of Targeted Promotions on Kindle Sales in Germany (Q1 2024)
+### 📊 Impact Analysis of Targeted Promotions on Kindle Sales in Germany (Q1 2024)
 **Code:**
 [SQL Query](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Targeted%20Promotions%20Incrementality%20Analysis.sql)
 
@@ -82,7 +82,53 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS).
 - Segment customers for personalized marketing: Since different devices have varying responses to promotions, use customer purchase history to tailor offers (e.g., offer D2024003 discounts to customers who previously bought an older model).
 - Run additional tests in different markets: This test focused on Germany, but similar tests in France, Italy, or Spain could reveal whether regional preferences affect promotion success.
 
-### CTV Sales Dashboard Automation
+### 📊 General Sales & Customer Analysis Dashboard
+
+**Goal:**
+Develop a comprehensive sales and customer analysis dashboard to provide real-time insights into order trends, revenue growth, customer distribution, and product performance across different regions. The solution needed to replace manual reporting, enhance decision-making, and optimize sales strategies.
+
+
+**Description:**
+The sales and customer tracking process previously required manual data extraction from multiple sources, making it inefficient and prone to errors. The General Analysis Monthly Report dashboard was designed to:
+
+- Monitor sales performance (YoY growth, order trends, revenue tracking).
+- Identify key customer segments (new vs. returning, regional distribution).
+- Analyze product category sales and shifts in market demand.
+- Track cross-sell and multi-division orders to optimize sales strategies.
+- Improve forecasting through trend analysis and historical comparisons.
+
+This automated dashboard consolidates data from different sources into a single view, allowing stakeholders to track business performance in real time and make data-driven strategic decisions.
+
+**Steps:**
+- 1️⃣ Data Consolidation & Integration
+	•	Connected to multiple sales, finance, and customer databases.
+	•	Standardized order data, customer records, and revenue metrics.
+	•	Integrated real-time sales tracking to monitor growth.
+- 2️⃣ Automating Sales & Customer Analytics
+	•	Created a dashboard tracking orders, revenue, and YoY trends.
+	•	Segmented customers by region, industry, and order frequency.
+	•	Implemented cross-sell tracking to measure multi-division orders.
+- 3️⃣ Building Key Performance Metrics (KPIs)
+	•	Developed visuals for revenue, customer growth, and product performance.
+	•	Built comparative YoY and month-over-month (MoM) trend analysis.
+	•	Enabled order breakdowns by country, product category, and division.
+- 4️⃣ Enhancing Forecasting & Strategic Insights
+	•	Created trend models to forecast sales based on historical data.
+	•	Identified high-growth customer segments for targeted strategies.
+	•	Provided actionable insights into regional market demand shifts.
+
+**Results:**
+[Dashboard](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Sales_%26%20_Customers_MBR.pdf)
+
+- ✅ Real-time visibility into sales and customer data, eliminating manual reporting.
+- ✅ Enhanced forecasting capabilities, allowing proactive sales planning.
+- ✅ Optimized cross-sell strategies, improving revenue from multi-division orders.
+- ✅ Identified high-growth regions & product categories, supporting data-driven market expansion.
+- ✅ Improved decision-making, empowering sales and finance teams with accurate insights.
+
+This dashboard transformed sales reporting from a manual, time-consuming process into an automated, strategic decision-making tool, providing valuable insights across products, customers, and regions.
+
+### 📊 CTV Sales Dashboard Automation
 **Code:**
 
 **Goal:**
@@ -118,7 +164,6 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
    - Worked closely with stakeholders to align expectations and provide regular progress updates.
 
  **Results:**
- 
 [Dashboard](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Sales_Report_WBR.pdf)
 
 - ✅ 400-500 hours saved annually by eliminating manual data entry.
@@ -128,7 +173,7 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
 - ✅ Global scalability: Successfully expanded to India, the US, and Japan, demonstrating its adaptability.
 - ✅ Faster decision-making: The CTV Sales team can now make data-driven decisions in real-time instead of relying on outdated reports.
 
-### Marketing Finance Dashboard Automation
+### 📊 Marketing Finance Dashboard Automation
 
 **Goal:**
 Automate budget tracking for the Marketing Finance team by integrating financial data from multiple sources into a centralized dashboard. The solution needed to eliminate manual Excel reporting, reduce errors, and provide real-time insights into spending and remaining budgets.
@@ -175,7 +220,6 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
    - Iterated based on feedback to enhance usability, visualizations, and filters.
  
 **Results:**
-
 [Dashboard](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Marketing_Finance_Dashboard.pdf)
 
 - ✅ 432 hours saved per year by eliminating manual tracking.
