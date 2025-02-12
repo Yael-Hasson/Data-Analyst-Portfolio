@@ -82,11 +82,12 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS).
 - Segment customers for personalized marketing: Since different devices have varying responses to promotions, use customer purchase history to tailor offers (e.g., offer D2024003 discounts to customers who previously bought an older model).
 - Run additional tests in different markets: This test focused on Germany, but similar tests in France, Italy, or Spain could reveal whether regional preferences affect promotion success.
 
-### 📊 General Sales & Customer Analysis Dashboard
+### 📊 Sales & Customer Analysis Report
+
+**Problem:**
 
 **Goal:**
 Develop a comprehensive sales and customer analysis dashboard to provide real-time insights into order trends, revenue growth, customer distribution, and product performance across different regions. The solution needed to replace manual reporting, enhance decision-making, and optimize sales strategies.
-
 
 **Description:**
 The sales and customer tracking process previously required manual data extraction from multiple sources, making it inefficient and prone to errors. The General Analysis Monthly Report dashboard was designed to:
@@ -120,7 +121,7 @@ This automated dashboard consolidates data from different sources into a single 
 **Results:**
 [Dashboard](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Sales_%26%20_Customers_MBR.pdf)
 
-- ✅ Real-time visibility into sales and customer data, eliminating manual reporting.
+- ✅ Real-time visibility into sales and customer data, eliminating manual reporting and reducing data retrieval time by 40%.
 - ✅ Enhanced forecasting capabilities, allowing proactive sales planning.
 - ✅ Optimized cross-sell strategies, improving revenue from multi-division orders.
 - ✅ Identified high-growth regions & product categories, supporting data-driven market expansion.
@@ -129,7 +130,8 @@ This automated dashboard consolidates data from different sources into a single 
 This dashboard transformed sales reporting from a manual, time-consuming process into an automated, strategic decision-making tool, providing valuable insights across products, customers, and regions.
 
 ### 📊 CTV Sales Dashboard Automation
-**Code:**
+
+**Problem:**
 
 **Goal:**
 Automate the CTV (Connected TV) Sales reporting process by replacing the manual Excel-based tracker with a scalable BI dashboard that integrates online and offline sales data, improves accuracy, and enables real-time tracking of key metrics like sales performance, Return on Equity (ROE), and Quarterly Guidance (QG) forecasts.
