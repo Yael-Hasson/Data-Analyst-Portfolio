@@ -203,16 +203,16 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
 - ✅ Global scalability: Successfully expanded to India, the US, and Japan, demonstrating its adaptability.
 - ✅ Faster decision-making: The Fire TV Sales team can now make data-driven decisions in real-time instead of relying on outdated reports.
 
-### 📊 Alexa Marketing Finance Dashboard Automation
+### 📊 Marketing Finance Dashboard Automation
 
 **Problem:**
-Budget tracking for the Alexa Marketing Finance team was inefficient due to reliance on manual Excel reports, leading to human errors and misalignment between planned and actual spending. The lack of real-time financial insights made it difficult to optimize marketing budgets and ensure accurate reporting across multiple teams and currencies.
+Budget tracking for the Marketing Finance team was inefficient due to reliance on manual Excel reports, leading to human errors and misalignment between planned and actual spending. The lack of real-time financial insights made it difficult to optimize marketing budgets and ensure accurate reporting across multiple teams and currencies.
 
 **Goal:**
-Automate budget tracking for the Alexa Marketing Finance team by integrating financial data from multiple sources into a centralized dashboard. The solution needed to eliminate manual Excel reporting, reduce errors, and provide real-time insights into spending and remaining budgets.
+Automate budget tracking for the Marketing Finance team by integrating financial data from multiple sources into a centralized dashboard. The solution needed to eliminate manual Excel reporting, reduce errors, and provide real-time insights into spending and remaining budgets.
 
 **Description:**
-The Alexa Marketing Finance team in EMEA previously relied on manual Excel tracking to consolidate:
+The Marketing Finance team in EMEA previously relied on manual Excel tracking to consolidate:
 - Purchase Order (PO) reports from Finance
 - Marketing campaign expenses from the Traffic team
 - Planned budgets in both local and USD currencies
@@ -262,7 +262,7 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
 - ✅ Enabled data-driven decision-making, allowing the team to optimize spending more strategically.
 - ✅ Long-term value & adoption: The dashboard became a core financial tool, reducing inefficiencies and increasing operational efficiency.
 
-By replacing an outdated manual process with a fully automated dashboard, this project empowered the Alexa Marketing Finance team to focus on high-impact strategic planning rather than time-consuming data consolidation.
+By replacing an outdated manual process with a fully automated dashboard, this project empowered the Marketing Finance team to focus on high-impact strategic planning rather than time-consuming data consolidation.
 
 ## Contact:
 
