@@ -156,16 +156,16 @@ This automated dashboard consolidates data from different sources into a single 
 
 This dashboard transformed sales reporting from a manual, time-consuming process into an automated, strategic decision-making tool, providing valuable insights across products, customers, and regions.
 
-### 📊 CTV Sales Dashboard Automation
+### 📊 Fire TV Sales Dashboard Automation
 
 **Problem:**
-The CTV Sales team relied on a manual Excel-based tracker that was time-consuming, error-prone, and lacked scalability. As the business expanded across multiple regions and sales channels, tracking performance metrics like sales, Share of Business (SOB), Week over Week (WoW) and Quarterly Guidance (QG) became increasingly difficult, delaying critical decision-making.
+The Fire TV Sales team relied on a manual Excel-based tracker that was time-consuming, error-prone, and lacked scalability. As the business expanded across multiple regions and sales channels, tracking performance metrics like sales, Share of Business (SOB), Week over Week (WoW) and Quarterly Guidance (QG) became increasingly difficult, delaying critical decision-making.
 
 **Goal:**
-Automate the CTV (Connected TV) Sales reporting process by replacing the manual Excel-based tracker with a scalable BI dashboard that integrates online and offline sales data, improves accuracy, and enables real-time tracking of key metrics like sales performance, Return on Equity (ROE), and Quarterly Guidance (QG) forecasts.
+Automate the Fire TV Sales reporting process by replacing the manual Excel-based tracker with a scalable BI dashboard that integrates online and offline sales data, improves accuracy, and enables real-time tracking of key metrics like sales performance, Return on Equity (ROE), and Quarterly Guidance (QG) forecasts.
 
 **Description:**
-The legacy Excel-based reporting system was time-consuming, prone to errors, and unable to track new programs, countries, and sales channels. With multiple launches on the horizon, the CTV Sales team needed an automated, scalable solution to track sales performance effectively.
+The legacy Excel-based reporting system was time-consuming, prone to errors, and unable to track new programs, countries, and sales channels. With multiple launches on the horizon, the Fire TV Sales team needed an automated, scalable solution to track sales performance effectively.
 
 This project focused on eliminating manual data entry, integrating multiple data sources, and ensuring accurate sales tracking across different brands and regions. The dashboard has now been successfully expanded to India, the US, and Japan, proving its scalability and effectiveness.
 
@@ -201,18 +201,18 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
 - ✅ Integrated online and offline sales data, enabling more comprehensive performance tracking.
 - ✅ Added forecast tracking, helping the team align sales with strategic goals.
 - ✅ Global scalability: Successfully expanded to India, the US, and Japan, demonstrating its adaptability.
-- ✅ Faster decision-making: The CTV Sales team can now make data-driven decisions in real-time instead of relying on outdated reports.
+- ✅ Faster decision-making: The Fire TV Sales team can now make data-driven decisions in real-time instead of relying on outdated reports.
 
-### 📊 Marketing Finance Dashboard Automation
+### 📊 Alexa Marketing Finance Dashboard Automation
 
 **Problem:**
-Budget tracking for the Marketing Finance team was inefficient due to reliance on manual Excel reports, leading to human errors and misalignment between planned and actual spending. The lack of real-time financial insights made it difficult to optimize marketing budgets and ensure accurate reporting across multiple teams and currencies.
+Budget tracking for the Alexa Marketing Finance team was inefficient due to reliance on manual Excel reports, leading to human errors and misalignment between planned and actual spending. The lack of real-time financial insights made it difficult to optimize marketing budgets and ensure accurate reporting across multiple teams and currencies.
 
 **Goal:**
-Automate budget tracking for the Marketing Finance team by integrating financial data from multiple sources into a centralized dashboard. The solution needed to eliminate manual Excel reporting, reduce errors, and provide real-time insights into spending and remaining budgets.
+Automate budget tracking for the Alexa Marketing Finance team by integrating financial data from multiple sources into a centralized dashboard. The solution needed to eliminate manual Excel reporting, reduce errors, and provide real-time insights into spending and remaining budgets.
 
 **Description:**
-The Marketing Finance team in EMEA previously relied on manual Excel tracking to consolidate:
+The Alexa Marketing Finance team in EMEA previously relied on manual Excel tracking to consolidate:
 - Purchase Order (PO) reports from Finance
 - Marketing campaign expenses from the Traffic team
 - Planned budgets in both local and USD currencies
@@ -262,7 +262,7 @@ SQL (JOINs, CTEs, aggregations), Redshift, S3 (AWS), Datanet, Quicksight.
 - ✅ Enabled data-driven decision-making, allowing the team to optimize spending more strategically.
 - ✅ Long-term value & adoption: The dashboard became a core financial tool, reducing inefficiencies and increasing operational efficiency.
 
-By replacing an outdated manual process with a fully automated dashboard, this project empowered the Marketing Finance team to focus on high-impact strategic planning rather than time-consuming data consolidation.
+By replacing an outdated manual process with a fully automated dashboard, this project empowered the Alexa Marketing Finance team to focus on high-impact strategic planning rather than time-consuming data consolidation.
 
 ## Contact:
 
