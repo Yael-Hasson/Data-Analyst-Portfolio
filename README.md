@@ -12,6 +12,57 @@ This is a repository to showcase skills, share projects and track my progress in
 
 ## Portfolio Projects
 
+###  A/B Test: Impact of Targeted Promotions on Device Sales
+**Code:**
+
+**Problem:**
+The Amazon Devices marketing team is unsure whether a personalized 20% discount for high-intent customers is more effective at increasing sales than a general 10% discount available to all customers.
+
+The main concerns are:
+- Are we optimizing our promotional budget, or are we giving discounts to customers who would have bought anyway?
+- Will a higher discount (20%) generate enough incremental sales to justify the loss in margin compared to the standard 10% offer?
+- Should we personalize discounts based on customer behavior, or is a general discount enough?
+
+**Goal:**
+Evaluate whether targeted personalized promotions (20%) drive higher conversion rates, revenue per customer, and return on investment (ROI) compared to the standard 10% discount.
+
+Key objectives:
+- Determine if segmented high-intent customers are more likely to convert with a targeted discount.
+- Measure if the additional 10% discount (from 10% to 20%) drives enough incremental revenue to compensate for the loss in margin.
+- Decide whether to scale targeted promotions to other Amazon Devices (Echo, Kindle, etc.).
+
+**Target Audience:**
+This A/B test targets:
+- Customers living in US & UK
+- Customers who have visited a Fire Tablet product page in the last 30 days.
+- Customers who have added a Fire Tablet to their cart but didn’t complete checkout.
+- Customers who previously bought a Fire Tablet 2+ years ago (potential upgrade customers).
+
+Details:
+- Treatment: 20% Off (Personalized) --> Test if a targeted discount improves conversions.
+- Control: 10% Off (General Discount) --> Benchmark against the standard offer.
+- Holdout: 0% Off (No Discount) --> Measure the natural conversion rate without promotions.
+
+**Results:**
+|Metric                 |Control (10%) |Treatment (20%) |Holdout (0%) |% Difference (Treatment vs. Control) |
+|-----------------------|--------------|----------------|-------------|-------------------------------------|
+|Conversion Rate        |3.2%          |5.5%            |2.5%         |71.8%                                |
+|Revenue per Customer   |$65           |$78             |%58          |20%                                  |
+|Card Abandonment Rate  |48 %          |35%             |51%          |-13pp                                |
+|ROI                    |3.2%          |5.5%            |2.5%         |71.8%                                |
+
+ This A/B test proved that targeted discounts are significantly more effective than general discounts, leading to:
+- ✅ Higher conversion rates. The +71.8% higher conversion rate justifies using targeted promos over generic ones.
+- ✅ Better revenue per customer. The additional 10% (from 10% to 20%) increased revenue per customer by 20%, so optimizing the balance between discount depth and ROI is key.
+- ✅ More efficient use of promotional budget, since the personalized promo lowered cart abandonment by 13pp.
+
+📌 Data-Driven Decisions:
+- Use personalized targeted promotions as they increase the conversion and revenue.
+- Fire Tablets saw significant improvements, so we should test targeted promotions on Echo and Kindle devices to see if similar results hold.
+- Extend A/B testing to Germany, France, and Japan for regional validation.
+- Amazon Devices should scale targeted promotions across product lines and optimize discount tiers to maintain a balance between sales growth and margin protection.
+
+
 ### 📊 Impact Analysis of Targeted Promotions on Kindle Sales in France (Prime Day 2024)
 **Code:**
 [SQL Query](https://github.com/Yael-Hasson/Portfolio-Projects/blob/main/Targeted%20Promotions%20Incrementality%20Analysis.sql)
@@ -27,7 +78,7 @@ Key questions this analysis aims to answer:
 **Goal:**
 To evaluate the impact of Targeted Promotions on Kindle sales in France during a Deals Event in May 2024. The objective is to test our targeting strategy ahead of Prime Day in July to ensure we reach the right customers and optimize conversion rates.
 
-**Description:**
+**Target Audience:**
 This A/B test compares sales data between two groups:
 	1.	Targeted Group (Received Promotion): Customers who received a promotional offer for Kindle devices.
 	2.	Holdout Group (No Promotion): Customers who were eligible but did not receive any promotion.
@@ -72,7 +123,7 @@ To determine whether this strategy is effective, we will apply two key performan
 
 By applyig these thresholds, we can ensure that only the most effective channels are included in our final campaign rollour, maximizing profitability ad engagement.
 
-**Description:**
+**Target Audience:**
 This project focused on analyzing customer data to create two key customer cohorts:
 
 	1.	Cohort 1: EU5 customers who own a device suitable for Kids Plus but do not yet have a Kids Plus subscription.
